@@ -27,6 +27,7 @@ vim.opt.showmode        = false   -- disable mode display
 vim.opt.colorcolumn     = {       -- highlight columns
     80, 100
 }
+vim.o.showtabline = 2
 
 vim.opt.list            = true    -- show non-printable caracters
 vim.opt.listchars = {
